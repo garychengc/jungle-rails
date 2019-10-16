@@ -25,6 +25,7 @@
             <% end %>
           </ul>
         </li>
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
        <li class="dropdown">
@@ -37,6 +38,11 @@
             <li><%= link_to 'Dashboard', [:admin, :root] %></li>
             <li><%= link_to 'Products',  [:admin, :products] %></li>
           </ul>
+        </li>
+        <li>
+        </li>
+        <li>
+          <%= link_to 'About', :about_index %>
         </li>
         <li>
           <%= link_to cart_path do %>
